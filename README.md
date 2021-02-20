@@ -11,4 +11,6 @@ curl https://raw.githubusercontent.com/Ernest1338/rspy/main/rspy --create-dirs -
 ```
 rspy filename.rs
 ```
+# Note
+### You must have rust compiler installed on your system. See https://rustup.rs/
 
