@@ -1,0 +1,5 @@
+#!/bin/bash
+filename=$1;
+cwd=$(pwd);
+abs_path=$cwd/$filename;
+rustc -o /tmp/rspy.out $abs_path; /tmp/rspy.out; rm /tmp/rspy.out
