@@ -7,6 +7,11 @@
 curl https://raw.githubusercontent.com/Ernest1338/rspy/main/rspy --create-dirs -o /usr/local/bin/rspy; chmod +x /usr/local/bin/rspy
 ```
 
+# If the installation fails due to permission error use this
+```
+sudo curl https://raw.githubusercontent.com/Ernest1338/rspy/main/rspy --create-dirs -o /usr/local/bin/rspy; sudo chmod +x /usr/local/bin/rspy
+```
+
 # Usage
 ```
 rspy filename.rs
