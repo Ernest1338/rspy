@@ -11,5 +11,5 @@ abs_path=$cwd/$filename;
 
 # Compiling user's script into temp directory using the Rust compiler,
 # running compiled binary and removing it from temp.
-rustc -o /tmp/rspy.out $abs_path; /tmp/rspy.out 2>/dev/null; rm /tmp/rspy.out 2>/dev/null
+rustc -o /tmp/rspy.out $abs_path && /tmp/rspy.out 2>/dev/null && rm /tmp/rspy.out 2>/dev/null
 
